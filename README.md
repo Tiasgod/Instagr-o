@@ -21,12 +21,10 @@ A aplicação simula funcionalidades visuais do Instagram, como feed de postagen
 ## 🖼️ Preview do projeto
 
 ### Feed principal
-<img src="./assets/Sem titulo.png" width="700"/>
+<img src="./assets/Sem título.png" width="700"/>
 
 ### Stories e navegação
 <img src="./assets/2.png" width="700"/>
-
-> ⚠️ *Obs: substitua os caminhos das imagens acima pelos arquivos corretos no seu repositório.*
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -35,21 +33,6 @@ A aplicação simula funcionalidades visuais do Instagram, como feed de postagen
 * HTML5
 * CSS3
 
-## 📦 Como executar o projeto
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-# Acesse a pasta do projeto
-cd seu-repositorio
-
-# Instale as dependências
-npm install
-
-# Execute o projeto
-npm run dev
-```
 
 ## 💡 Aprendizados
 
@@ -61,13 +44,3 @@ Durante o desenvolvimento, enfrentei desafios práticos como:
 * Estruturação de componentes reutilizáveis
 
 Esses pontos foram fundamentais para evoluir minha visão sobre como aplicações reais são construídas.
-
-## 📈 Próximos passos
-
-* Implementar responsividade completa
-* Adicionar funcionalidades dinâmicas (likes, comentários, etc.)
-* Integração com API/backend
-
----
-
-Feito com dedicação para evoluir cada vez mais no desenvolvimento front-end 🚀
