@@ -1,0 +1,119 @@
+.conta_usuario {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+}
+
+.conta_usuario img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.conta_info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.conta_username {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--texto);
+}
+
+.conta_nome {
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.btn_trocar {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primaria);
+    cursor: pointer;
+}
+
+.sugestoes_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.sugestoes_header span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cinza);
+}
+
+.sugestoes_header button {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--texto);
+    cursor: pointer;
+}
+
+.sugestao_item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.sugestao_item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.sugestao_info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sugestao_username {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--texto);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sugestao_sub {
+    font-size: 12px;
+    color: var(--cinza);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn_seguir {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primaria);
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+
+.footer_links {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer_links span {
+    font-size: 11px;
+    color: var(--cinza);
+    line-height: 1.6;
+}

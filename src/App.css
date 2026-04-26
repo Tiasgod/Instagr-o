@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.LateralEsquerda {
+  width: 244px;
+  min-width: 244px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: var(--branco);
+  border-right: 1px solid var(--borda);
+  z-index: 100;
+}
+
+.Principal {
+  background-color: var(--background);
+  width: 630px;
+  margin-left: 244px;
+  margin-right: auto;
+  padding-top: 24px;
+}
+
+.LateralDireita {
+  background-color: transparent;
+  width: 319px;
+  min-width: 319px;
+  padding-top: 24px;
+  padding-left: 32px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 1100px) {
+  .LateralDireita {
+    display: none;
+  }
+  .Principal {
+    margin-right: 0;
+  }
+}

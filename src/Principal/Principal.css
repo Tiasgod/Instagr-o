@@ -1,0 +1,226 @@
+.Stories {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 16px 0 20px 0;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--borda);
+    scrollbar-width: none;
+}
+
+.Stories::-webkit-scrollbar {
+    display: none;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.story_avatar {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    padding: 2px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.story_avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.story span {
+    font-size: 12px;
+    color: var(--texto);
+    max-width: 66px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.Feed {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 24px;
+}
+
+.Post {
+    background-color: var(--branco);
+    border: 1px solid var(--borda);
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.post_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+}
+
+.post_header_user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post_avatar_ring {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding: 2px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    flex-shrink: 0;
+}
+
+.post_avatar_ring img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.post_header_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post_username {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--texto);
+}
+
+.post_time {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.post_more {
+    color: var(--texto);
+    padding: 4px;
+}
+
+.post_image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.post_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.post_image img:hover {
+    transform: scale(1.01);
+}
+
+.post_actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px 4px 12px;
+}
+
+.post_actions_left {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.post_actions button {
+    padding: 6px;
+    color: var(--texto);
+    transition: transform 0.1s ease, color 0.1s ease;
+    display: flex;
+    align-items: center;
+}
+
+.post_actions button:hover {
+    transform: scale(1.1);
+}
+
+.post_actions button.liked svg {
+    animation: heartPop 0.3s ease;
+}
+
+@keyframes heartPop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+}
+
+.post_likes {
+    padding: 4px 16px 6px 16px;
+    font-size: 14px;
+}
+
+.post_caption {
+    padding: 4px 16px 8px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.post_comments {
+    padding: 0 16px 6px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.post_comment {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--texto);
+}
+
+.post_comment_input {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--borda);
+    padding: 10px 16px;
+    gap: 12px;
+}
+
+.post_comment_input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: var(--texto);
+    background: transparent;
+}
+
+.post_comment_input input::placeholder {
+    color: var(--cinza);
+}
+
+.post_comment_input button {
+    font-weight: 600;
+    color: var(--primaria);
+    font-size: 14px;
+    opacity: 1;
+    transition: opacity 0.1s ease;
+}
+
+.post_comment_input button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}

@@ -1,0 +1,77 @@
+.LateralEsquerda {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px 20px 12px;
+}
+
+.logoInstagram {
+  width: 105px;
+  padding: 25px 12px 16px 12px;
+  margin-bottom: 8px;
+}
+
+.LateralEsquerda ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.LateralEsquerda li {
+  list-style: none;
+  margin: 0;
+}
+
+.LateralEsquerda li .menu-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--texto);
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+
+.LateralEsquerda li .menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.perfil-lateral {
+  margin-top: auto;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.perfil-lateral:hover {
+  background-color: #f0f0f0;
+}
+
+.perfil-lateral img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.perfil-lateral-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil-lateral-info span:first-child {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.perfil-lateral-info span:last-child {
+  color: var(--cinza);
+  font-size: 14px;
+}
