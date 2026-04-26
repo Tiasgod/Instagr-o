@@ -17,10 +17,6 @@ A aplicação simula funcionalidades visuais do Instagram, como feed de postagen
 ## 🖼️ Preview do projeto
 
 ### Feed principal
-
-## 🖼️ Preview do projeto
-
-### Feed principal
 <img src="./assets/Sem título.png" width="700"/>
 
 ### Stories e navegação
