@@ -1,16 +1,71 @@
-# React + Vite
+# 📸 Instagrão - Clone do Instagram em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma recriação da interface do Instagram desenvolvida com **React**, com foco em uma experiência moderna, fluida e fiel ao design da aplicação original.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O **Instagrão** foi desenvolvido com o objetivo de praticar e consolidar conceitos essenciais do desenvolvimento front-end, como:
 
-## React Compiler
+* Componentização
+* Reutilização de código
+* Organização de pastas
+* Gerenciamento de estado
+* Boas práticas com React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A aplicação simula funcionalidades visuais do Instagram, como feed de postagens, stories e sugestões de usuários, trazendo uma interface limpa e responsiva.
 
-## Expanding the ESLint configuration
+## 🖼️ Preview do projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Feed principal
+
+![Feed do projeto](./assets/feed.png)
+
+### Stories e navegação
+
+![Stories do projeto](./assets/stories.png)
+
+> ⚠️ *Obs: substitua os caminhos das imagens acima pelos arquivos corretos no seu repositório.*
+
+## 🛠️ Tecnologias utilizadas
+
+* React
+* JavaScript
+* HTML5
+* CSS3
+
+## 📦 Como executar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# Acesse a pasta do projeto
+cd seu-repositorio
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+```
+
+## 💡 Aprendizados
+
+Durante o desenvolvimento, enfrentei desafios práticos como:
+
+* Ajustes finos de layout
+* Organização de assets
+* Correção de erros de importação
+* Estruturação de componentes reutilizáveis
+
+Esses pontos foram fundamentais para evoluir minha visão sobre como aplicações reais são construídas.
+
+## 📈 Próximos passos
+
+* Implementar responsividade completa
+* Adicionar funcionalidades dinâmicas (likes, comentários, etc.)
+* Integração com API/backend
+
+---
+
+Feito com dedicação para evoluir cada vez mais no desenvolvimento front-end 🚀
