@@ -18,11 +18,13 @@ A aplicação simula funcionalidades visuais do Instagram, como feed de postagen
 
 ### Feed principal
 
-![Feed do projeto](./assets/feed.png)
+## 🖼️ Preview do projeto
+
+### Feed principal
+<img src="./assets/Sem titulo.png" width="700"/>
 
 ### Stories e navegação
-
-![Stories do projeto](./assets/stories.png)
+<img src="./assets/2.png" width="700"/>
 
 > ⚠️ *Obs: substitua os caminhos das imagens acima pelos arquivos corretos no seu repositório.*
 
